@@ -2,8 +2,11 @@
 const driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value){
- let newdriver = driver.name=value;
-   return  newdriver;
+ const newObj = { ...driver };
+ 
+  newObj[key] = value;
+ 
+  return newObj;
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(){
