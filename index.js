@@ -2,6 +2,6 @@
 const driver = { key: value};
 
 function updateDriverWithKeyAndValue(driver, key, value){
-   diver[name]=value;
+   driver.name=value;
   
 }
